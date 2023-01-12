@@ -20,6 +20,7 @@
     "build": "webpack --mode=production --env production --progress",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
+    "serve-storybook": "serve storybook-static",
     "release": "auto shipit --base-branch=master",
     "test-storybook": "test-storybook",
     "lint": "eslint \"src/**/*.{ts,tsx}\""
